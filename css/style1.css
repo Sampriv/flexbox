@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    background-color: yellow;
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 64px;
+    flex-direction: row;
+}
+
+.vertical ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.pane {
+    display: flex;
+    flex-direction: row;;
+}
+
+.card {
+    flex: 1;
+}
+
+.mango {
+    width: 100%;
+}
